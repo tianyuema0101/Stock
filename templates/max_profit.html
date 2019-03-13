@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <p>Max Profit: {{ max_profit }}</p>
+    <p>Buy day: {{ buy_date }}</p>
+    <p>Sell day: {{ sell_date }}</p>
+    {% if plot %}
+    <div>
+        {{ plot|safe }}
+    </div>
+    {% endif %}
+</body>
+</html>

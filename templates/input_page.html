@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+</head>
+<body>
+    <form method="post" action="{% url 'max_profit' %}">
+        {%csrf_token%}
+       Code: <input type="text" name="code" placeholder="stock code"><br>
+       Start Date: <input type="text" name="start" placeholder="start date"><br>
+       End Date:  <input type="text" name="end" placeholder="end date"><br>
+        <input type="submit" value="submit"><br>
+    </form>
+</body>
+</html>
