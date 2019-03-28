@@ -1,5 +1,5 @@
 # Stock
-This is a simple django backend server for 61 financial coding test. It contains python scripts to get and store stock data from initrino to MySQL database. The django Restful Framework is used to get the list of stock according to code, start date and end date. It also contains the algorithm to calculate the max profit during a period and present the line chart.
+This is a simple django backend server for coding test. It contains python scripts to get and store stock data from initrino to MySQL database. The django Restful Framework is used to get the list of stock according to code, start date and end date. It also contains the algorithm to calculate the max profit during a period and present the line chart.
 
 Function:
 1. Get and store stock price data from initrino
